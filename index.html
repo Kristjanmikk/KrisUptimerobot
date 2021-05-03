@@ -201,9 +201,12 @@ kuku
     "12"
   ];
 
-  let rsult = Math.floor(Math.random() * replies.length);
+  let result = Math.floor(Math.random() * replies.length);
     
-  console.og(result);
+  console.log(result);
+   var e = new Error('Could not parse input');
+// e.message is 'Could not parse input'
+throw e;
  }
   </script>
 </body>
